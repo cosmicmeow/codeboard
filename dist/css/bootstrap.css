@@ -322,13 +322,13 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #80A991;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #5E9374;
   text-decoration: underline;
 }
 
@@ -2986,7 +2986,7 @@ input[type="button"].btn-block {
   content: "\e078";
 }
 
-.glyphicon-chevron-left:before {
+.glyphicon-footron-left:before {
   content: "\e079";
 }
 
@@ -4487,10 +4487,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
+  font-family:"League Gothic";
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 20px;
+  letter-spacing: 1px;
 }
 
 .navbar-brand:hover,
@@ -4801,7 +4803,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #eee;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -7099,6 +7101,92 @@ td.visible-print {
 
 
 .header {
-  height: 80%;
-  background: #f68076 url('../../img/computerlab.png') no-repeat center center fixed;
+  background: #f68076 url('../../img/paperpattern_2.png') repeat center center fixed;
 }
+
+.header_cap {
+  background-color: rgba(0, 0, 0, 0.35);
+  padding:10px;
+  margin:20px 0;
+}
+
+.header h1{
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.header p{
+  color:#3E3B3C;
+}
+
+.wrapper {
+  background: #34393D;
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+
+.wrapper2 {
+  background: #f68076 url('../../img/computerlab.png') no-repeat center center fixed;
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+
+}
+
+.wrapper3 {
+  background: #f68076 url('../../img/paperpattern_2.png') repeat center center fixed;
+  width: 100%;
+  height:auto;
+  padding: 30px 0;
+
+}
+
+.login {
+  background:#fff;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../font/webfont/leaguegothic-regular-webfont.eot');
+    src: url('../font/webfont/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/webfont/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../font/webfont/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../font/webfont/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+footer {
+  color:#fff;
+  background:#3E3B3C;
+  padding:20px 0;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:60px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -60px; /* negative value of footer height */
+  height: 60px;
+  clear:both;
+  padding-top:20px;
+} 
+
